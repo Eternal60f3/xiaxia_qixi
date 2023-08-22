@@ -24,8 +24,8 @@ body {
 }
 .glow {
   background: white;
-  width: 60px;
-  height: 60px;
+  width: 240px;
+  height: 240px;
   background-position: center center;
   background-size: cover;
   animation: glitter 10s linear 0s infinite normal;
@@ -34,22 +34,36 @@ body {
   -ms-animation: glitter 10s linear 0s infinite normal;
   -o-animation: glitter 10s linear 0s infinite normal;
 }
+.glow2 {
+  background: white;
+  width: 180px;
+  height: 180px;
+  background-position: center center;
+  background-size: cover;
+  animation: glitter 10s linear 0s infinite normal;
+  -webkit-animation: glitter 10s linear 0s infinite normal;
+  -moz-animation: glitter 10s linear 0s infinite normal;
+  -ms-animation: glitter 10s linear 0s infinite normal;
+  -o-animation: glitter 10s linear 0s infinite normal;
+
+}
+
 .one {
   background-image: url(images/1.jpg);
-  top: 20%;
-  left: 33%;
+  top: 71%;
+  left: 10%;
   animation-delay: -2s;
 }
 .two {
   background-image: url(images/2.jpg);
-  top: 19%;
-  left: 41%;
+  top: 65%;
+  left: 23%;
   animation-delay: -1.7142857143s;
 }
 .three {
   background-image: url(images/3.jpg);
-  top: 30%;
-  left: 49%;
+  top: 60%;
+  left: 39%;
   animation-delay: -1.4285714286s;
 }
 .four {
@@ -60,7 +74,7 @@ body {
 }
 .five {
   background-image: url(images/5.jpg);
-  top: 47%;
+  top: 36%;
   left: 71%;
   animation-delay: -0.8571428571s;
 }
@@ -72,6 +86,8 @@ body {
 }
 .seven {
   background-image: url(images/7.jpg);
+  width: 180;
+  height: 180;
   top: 59%;
   left: 55%;
   animation-delay: -0.2857142857s;
@@ -79,8 +95,8 @@ body {
 
 .polaris {
   background-image: url(images/8.jpg);
-  width: 70px;
-  height: 70px;
+  width: 240px;
+  height: 240px;
   top: 3%;
   left: 83%;
   animation-delay: 0;
